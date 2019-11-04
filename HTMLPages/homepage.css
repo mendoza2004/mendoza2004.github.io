@@ -1,0 +1,53 @@
+.content-card {
+    width: 300px;
+    height: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: darkgray;
+    position: relative;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.22);
+}
+
+.content-card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transform: scale(1.1);
+    transition: transform 1s;
+    animation-duration: 1s;
+}
+
+.content-text {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.content-card img {
+    width: 250px;
+    height: 250px;
+}
+
+header {
+    font-family: Roboto Mono, monospace;
+    height: 100vh;
+    position: relative;
+}
+
+.hello-text {}
+
+.name-text {}
+
+@keyframesmove-text {
+    0% {}
+
+    100% {}
+}
+.content-wraper {
+    width: 900px;
+    max-width: 900px;
+    text-align: center;
+}
